@@ -1,5 +1,6 @@
 # Laravel Simple Query Filters
 A simple PHP Eloquent extension for universal filters.
+Heavily inspired by https://github.com/AlexanderTersky/eloquent-query-filter but with a better support for relation
 
 ## Installation
 
