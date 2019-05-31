@@ -23,7 +23,7 @@ Our request must look like
 /filter[column_name:operator]=something
 ```
 
-### Inclusion the trait to your model
+### Include the trait in your model
 
 ```php
 <?php
