@@ -97,9 +97,10 @@ class Builder extends \Illuminate\Database\Eloquent\Builder
       $model->{'set' . $column . 'attribute'}($value);
       $value = $model->getAttributes()[$column];
     }
-    if ($operator == 'like' || $operator == 'ilike') {
+
+    /*if ($operator == 'like' || $operator == 'ilike') {
       $value = '%' . $value . '%';
-    }
+    }*/
     return $value;
   }
 }
