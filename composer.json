@@ -10,7 +10,7 @@
     "keywords": ["laravel", "database", "filter", "eloquent", "url", "query", "exeko"],
     "require": {
         "php": ">=7.3",
-        "illuminate/database": "^7.0"
+        "illuminate/database": "^8.6"
     },
     "autoload": {
         "psr-4": {
